@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Nihad Brand — Mode & élégance au quotidien. Livraison partout au Maroc."
+  >
+
+  <title>Nihad Brand — L’élégance au quotidien</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="announcement">
+    Livraison partout au Maroc · Commandes faciles via WhatsApp
+  </div>
+
+
+  <!-- HEADER -->
+  <header class="site-header">
+
+    <a href="#accueil" class="brand">
+
+      <span class="brand-mark">N</span>
+
+      <span class="brand-name">
+        NIHAD <b>BRAND</b>
+        <small>MODE & ÉLÉGANCE</small>
+      </span>
+
+    </a>
+
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Ouvrir le menu"
+      aria-expanded="false"
+    >
+      ☰
+    </button>
+
+
+    <nav class="main-nav" id="mainNav">
+
+      <a href="#accueil">Accueil</a>
+
+      <a href="#collection">Collection</a>
+
+      <a href="#histoire">Notre univers</a>
+
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <a href="#collection" class="header-cta">
+      Découvrir <span>↗</span>
+    </a>
+
+  </header>
+
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          <span></span>
+          COLLECTION NIHAD BRAND
+        </p>
+
+
+        <h1>
+          L’élégance,
+          <br>
+          <em>au quotidien.</em>
+        </h1>
+
+
+        <p class="hero-description">
+          Une sélection inspirée de l’univers de Nihad Brand,
+          pensée pour mettre en valeur une mode élégante,
+          moderne et facile à commander partout au Maroc.
+        </p>
+
+
+        <div class="hero-actions">
+
+          <a
+            href="#collection"
+            class="button button-dark"
+          >
+            Explorer la collection
+            <span>↗</span>
+          </a>
+
+
+          <a
+            href="#histoire"
+            class="text-link"
+          >
+            Découvrir notre univers
+          </a>
+
+        </div>
+
+
+        <div class="hero-note">
+
+          <span class="note-line"></span>
+
+          <span>
+            Concept 3D créé pour la présentation du projet
+            · Tanger, Maroc.
+          </span>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- 3D HERO -->
+      <div class="hero-visual">
+
+        <img
+          src="assets/nihad-3d-hero.png"
+          alt="Concept 3D Nihad Brand — collection mode élégante"
+        >
+
+
+        <div class="hero-label">
+
+          <span class="label-star">
+            ✳
+          </span>
+
+          <span>
+            LE STYLE
+            <br>
+            EN TOUTE SIMPLICITÉ
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-side-text">
+        NIHAD BRAND · TANGER, MAROC
+      </div>
+
+    </section>
+
+
+
+    <!-- TRUST -->
+    <section class="trust-strip">
+
+      <div>
+        <span class="trust-icon">✳</span>
+        <span>Style & élégance</span>
+      </div>
+
+      <div>
+        <span class="trust-icon">◇</span>
+        <span>Commande simple</span>
+      </div>
+
+      <div>
+        <span class="trust-icon">↗</span>
+        <span>Livraison partout au Maroc</span>
+      </div>
+
+    </section>
+
+
+
+    <!-- COLLECTION -->
+    <section
+      class="collection section-wrap"
+      id="collection"
+    >
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="eyebrow">
+            VOTRE SÉLECTION
+          </p>
+
+          <h2>
+            Les coups de cœur
+          </h2>
+
+        </div>
+
+
+        <p>
+          Une sélection de démonstration pour donner
+          vie à votre prochaine tenue.
+        </p>
+
+      </div>
+
+
+
+      <!-- FILTERS -->
+      <div class="filters">
+
+        <button
+          class="filter active"
+          data-filter="all"
+        >
+          Tout voir
+        </button>
+
+        <button
+          class="filter"
+          data-filter="ensembles"
+        >
+          Ensembles
+        </button>
+
+        <button
+          class="filter"
+          data-filter="robes"
+        >
+          Robes
+        </button>
+
+        <button
+          class="filter"
+          data-filter="hauts"
+        >
+          Hauts
+        </button>
+
+      </div>
+
+
+
+      <!-- PRODUCTS -->
+      <div
+        class="product-grid"
+        id="productGrid"
+      >
+
+
+        <!-- PRODUCT 1 -->
+        <article
+          class="product-card"
+          data-category="ensembles"
+        >
+
+          <div class="product-image">
+
+            <span class="product-tag">
+              Sélection
+            </span>
+
+
+            <img
+              src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80"
+              alt="Ensemble beige élégant"
+            >
+
+
+            <button
+              class="quick-order"
+              data-product="Ensemble Sable"
+              data-price="349"
+              data-sizes="S, M, L, XL"
+            >
+              Commander ↗
+            </button>
+
+          </div>
+
+
+          <div class="product-meta">
+
+            <div>
+
+              <h3>
+                Ensemble Sable
+              </h3>
+
+              <p>
+                Ensemble · Beige
+              </p>
+
+            </div>
+
+            <strong>
+              349 DH
+            </strong>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PRODUCT 2 -->
+        <article
+          class="product-card"
+          data-category="robes"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=700&q=80"
+              alt="Robe noire élégante"
+            >
+
+
+            <button
+              class="quick-order"
+              data-product="Robe Élégance"
+              data-price="299"
+              data-sizes="S, M, L, XL"
+            >
+              Commander ↗
+            </button>
+
+          </div>
+
+
+          <div class="product-meta">
+
+            <div>
+
+              <h3>
+                Robe Élégance
+              </h3>
+
+              <p>
+                Robe · Noir
+              </p>
+
+            </div>
+
+            <strong>
+              299 DH
+            </strong>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PRODUCT 3 -->
+        <article
+          class="product-card"
+          data-category="hauts"
+        >
+
+          <div class="product-image">
+
+            <span class="product-tag product-tag-light">
+              Nouveau
+            </span>
+
+
+            <img
+              src="https://images.unsplash.com/photo-1551163943-3f6a855d1153?auto=format&fit=crop&w=700&q=80"
+              alt="Haut crème minimaliste"
+            >
+
+
+            <button
+              class="quick-order"
+              data-product="Blouse Crème"
+              data-price="189"
+              data-sizes="S, M, L, XL"
+            >
+              Commander ↗
+            </button>
+
+          </div>
+
+
+          <div class="product-meta">
+
+            <div>
+
+              <h3>
+                Blouse Crème
+              </h3>
+
+              <p>
+                Haut · Crème
+              </p>
+
+            </div>
+
+            <strong>
+              189 DH
+            </strong>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PRODUCT 4 -->
+        <article
+          class="product-card"
+          data-category="ensembles"
+        >
+
+          <div class="product-image">
+
+            <img
+              src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80"
+              alt="Look moderne olive"
+            >
+
+
+            <button
+              class="quick-order"
+              data-product="Ensemble Olive"
+              data-price="329"
+              data-sizes="S, M, L, XL"
+            >
+              Commander ↗
+            </button>
+
+          </div>
+
+
+          <div class="product-meta">
+
+            <div>
+
+              <h3>
+                Ensemble Olive
+              </h3>
+
+              <p>
+                Ensemble · Olive
+              </p>
+
+            </div>
+
+            <strong>
+              329 DH
+            </strong>
+
+          </div>
+
+        </article>
+
+      </div>
+
+
+      <p class="demo-disclaimer">
+        * Démo visuelle : les modèles, photos et prix affichés
+        sont des exemples et doivent être remplacés par les
+        vrais articles de Nihad Brand.
+      </p>
+
+    </section>
+
+
+
+    <!-- EDITORIAL -->
+    <section
+      class="editorial"
+      id="histoire"
+    >
+
+      <div class="editorial-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1000&q=85"
+          alt="Inspiration de style féminin"
+        >
+
+      </div>
+
+
+      <div class="editorial-copy">
+
+        <p class="eyebrow">
+          L’UNIVERS NIHAD BRAND
+        </p>
+
+
+        <h2>
+          Votre style.
+          <br>
+          <em>Votre signature.</em>
+        </h2>
+
+
+        <p>
+          Une garde-robe pensée pour accompagner vos journées :
+          des pièces faciles à associer, une élégance naturelle
+          et un style qui vous ressemble.
+        </p>
+
+
+        <a
+          href="#collection"
+          class="button button-outline"
+        >
+          Voir la sélection
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- WHATSAPP CTA -->
+    <section
+      class="order-banner"
+      id="contact"
+    >
+
+      <div class="order-symbol">
+        N.
+      </div>
+
+
+      <div>
+
+        <p class="eyebrow">
+          UNE QUESTION ? UN COUP DE CŒUR ?
+        </p>
+
+        <h2>
+          On vous accompagne
+          <br>
+          pour votre commande.
+        </h2>
+
+      </div>
+
+
+      <a
+        class="button button-light"
+        id="contactWhatsApp"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        Écrire sur WhatsApp
+        <span>↗</span>
+      </a>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <a
+      class="brand footer-brand"
+      href="#accueil"
+    >
+
+      <span class="brand-mark">
+        N
+      </span>
+
+      <span class="brand-name">
+        NIHAD <b>BRAND</b>
+        <small>MODE & ÉLÉGANCE</small>
+      </span>
+
+    </a>
+
+
+    <p>
+      © <span id="year"></span>
+      Nihad Brand. Tous droits réservés.
+    </p>
+
+
+    <div class="footer-links">
+
+      <a href="#collection">
+        Collection
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
+      <a
+        href="https://www.instagram.com/nd_braned/"
+        target="_blank"
+        rel="noopener"
+      >
+        Instagram ↗
+      </a>
+
+    </div>
+
+  </footer>
+
+
+
+  <!-- ORDER MODAL -->
+  <div
+    class="modal-backdrop"
+    id="orderModal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="order-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+
+      <button
+        class="modal-close"
+        id="modalClose"
+        aria-label="Fermer"
+      >
+        ×
+      </button>
+
+
+      <p class="eyebrow">
+        COMMANDE WHATSAPP
+      </p>
+
+
+      <h2 id="modalTitle">
+        Votre sélection
+      </h2>
+
+
+      <p
+        class="modal-product"
+        id="modalProductName"
+      ></p>
+
+
+      <label for="sizeSelect">
+        Choisir une taille
+      </label>
+
+      <select id="sizeSelect"></select>
+
+
+      <label for="colorInput">
+        Couleur souhaitée
+      </label>
+
+      <input
+        id="colorInput"
+        type="text"
+        placeholder="Ex. beige, noir..."
+      >
+
+
+      <label for="customerCity">
+        Ville de livraison
+      </label>
+
+      <input
+        id="customerCity"
+        type="text"
+        placeholder="Ex. Tanger, Rabat..."
+      >
+
+
+      <button
+        class="button button-dark modal-submit"
+        id="sendOrder"
+      >
+        Continuer sur WhatsApp
+        <span>↗</span>
+      </button>
+
+
+      <small>
+        La commande sera confirmée directement avec la marque
+        sur WhatsApp.
+      </small>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- FLOATING WHATSAPP -->
+  <a
+    class="floating-whatsapp"
+    id="floatingWhatsApp"
+    href="#"
+    target="_blank"
+    rel="noopener"
+    aria-label="Contacter Nihad Brand sur WhatsApp"
+  >
+    ✆
+  </a>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
